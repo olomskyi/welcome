@@ -76,6 +76,43 @@ ul {
   border-radius: 5px;
 }
 
+.show-contacts {
+  position: relative;
+  cursor: pointer;
+  color: #ca3406;
+  font-size: 22px;
+  font-family: 'Old English Text MT', 'Gothic', serif;
+  user-select: none;
+  margin-left: 1em;
+  margin-top: -10px;
+  text-shadow: 1px 1px 2px #5c3535;
+  }
+
+.contacts {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 350px;
+  background: #fff;
+  border: 2px solid #ff6600;
+  padding: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease;
+  z-index: 1000;
+  pointer-events: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.contacts.show {
+  opacity: 1;
+  max-height: 500px;
+  pointer-events: auto;
+}
+
 footer {
   text-align: center;
   padding: 10px;
