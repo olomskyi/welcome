@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background: #fdf6e3;
-  color: #333;
+  font-size: 1.03rem;
+  background: #f8f8f6;
+  color: #222222;
 }
 
 .header-img {
@@ -42,7 +43,13 @@ main {
 h2 {
   font-family: 'Georgia', serif;
   font-size: 1.8em;
-  color: #ff6600;
+  color: #883904;
+  text-shadow: 2px 2px 4px #5c3535;
+}
+
+.education {
+  font-size: 1.05rem;
+  margin: 2px 0;
 }
 
 ul {
@@ -50,12 +57,23 @@ ul {
   padding-left: 20px;
 }
 
+.cert-content {
+  margin-top: -10px;
+}
+
+.skill-main {
+  font-weight: bold !important;
+  color: #d4401b;
+}
+
 .icon {
-  width: 60px;
+  width: 30px;
   height: auto;
   float: left;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-bottom: 10px;
+  box-shadow: 2px 2px 4px #5c3535;
+  border-radius: 5px;
 }
 
 footer {
