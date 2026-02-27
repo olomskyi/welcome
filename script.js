@@ -17,3 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.querySelectorAll(".zoomable").forEach(img => {
+  img.addEventListener("click", () => {
+    img.classList.toggle("expanded");
+  });
+});
+
+
